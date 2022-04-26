@@ -327,7 +327,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #666666;
+  color: #5F5F5F;
   text-align: left;
 }
 
@@ -2290,7 +2290,7 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #666666;
+  color: #5F5F5F;
 }
 
 .form-control {
@@ -9447,7 +9447,7 @@ fieldset:disabled .btn {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #666666 !important;
+  color: #5F5F5F !important;
 }
 
 .text-black-50 {
