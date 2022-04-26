@@ -1,0 +1,182 @@
+:root {
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+@include media-breakpoint-down(sm) {
+  html {
+    font-size: 12px;
+  }
+}
+
+.body_image {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/plant_left.webp);
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 100%;
+    height: 80%;
+    top: 5%;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .body_image {
+    &::before {
+      z-index: -1;
+      opacity: .2;
+    }
+  }
+}
+
+.ff_anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.ff_open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.z-0 {
+  z-index: 900;
+}
+
+.z-1 {
+  z-index: $zindex-dropdown;
+}
+
+.z-2 {
+  z-index: $zindex-sticky;
+}
+
+.z-3 {
+  z-index: $zindex-fixed;
+}
+
+.z-4 {
+  z-index: $zindex-modal-backdrop;
+}
+
+.z-5 {
+  z-index: $zindex-modal;
+}
+
+.z-6 {
+  z-index: $zindex-popover;
+}
+
+.z-7 {
+  z-index: $zindex-tooltip;
+}
+
+.cr_point {
+  cursor: pointer;
+}
+
+.fs-7 {
+  font-size: rem-calc(14px);
+}
+
+.fs-8 {
+  font-size: rem-calc(12px);
+}
+
+.fs-25 {
+  font-size: rem-calc(25px);
+}
+
+.fs-35_7 {
+  font-size: rem-calc(35.7px);
+}
+
+.bg-logo {
+  &::before {
+    content: '';
+    background-image: url("../images/gradient_line.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    height: 3.563rem
+  }
+}
+
+.navbar {
+  .bg-image {
+    height: rem-calc(182px);
+
+    &::before {
+      content: '';
+      background-image: url("../images/bg_imge.webp");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  }
+}
+
+.logo-position {
+  position: absolute;
+  top: 8%;
+  left: rem-calc(71px);
+}
+
+.logo-after {
+  &::after {
+    content: '';
+    background-image: url("../images/header_block1.webp");
+    background-position: left;
+    background-repeat: no-repeat;
+    top: rem-calc(55px);
+    left: 0;
+    width: rem-calc(255px);
+    height: rem-calc(127px);
+    position: absolute;
+  }
+}
+
+.pt-70 {
+  padding-top: rem-calc(70px);
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-sehr {
+  letter-spacing: rem-calc(.85px);
+  line-height: rem-calc(41px);
+}
+
+.text-richtigen {
+  line-height: 33px;
+  letter-spacing: -.1px;
+}
+
+.text-all {
+  font-size: rem-calc(27px);
+  transform: matrix(1.083333, 0, 0, 1.083333, 20, 0);
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+

@@ -1,0 +1,12 @@
+.footer {
+  &__h1{
+    font-size: rem-calc(29px);
+  }
+  &__bg {
+    background-image: url("../images/water.webp");
+  }
+
+  .logo-position{
+    top: rem-calc(-69px);
+  }
+}

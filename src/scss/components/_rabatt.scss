@@ -1,0 +1,29 @@
+.rabatt {
+  &__logo {
+    width: 3.563rem;
+  }
+
+  &__bg {
+    background-image: url("../images/bg-lf.webp");
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background: $white;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: .9;
+      z-index: 0;
+    }
+  }
+
+  &__card {
+    background-image: url("../images/bg_card.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
