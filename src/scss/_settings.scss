@@ -5,9 +5,11 @@ $yellow: #FFDC52;
 $purple: #593F62;
 $green: #80C22A;
 $red: #F30000;
-$light: #f0f0f0;
 $secondary: #5f5f5f;
-$white: #fff;
+$white: #E5E5E5;
+
+
+$size: 14px;
 
 //link
 
@@ -22,7 +24,6 @@ $enable-responsive-font-sizes: true;
 $border-radius: 5px;
 $radius: 8px;
 
-$font-family-arial: "Arial", sans-serif;
 $font-family-sans-serif: "Roboto", sans-serif;
 $font-weight-normal: 500;
 //$font-family-sans-serif: "Raleway", sans-serif;
@@ -38,10 +39,8 @@ $breadcrumb-item-padding-x: 1rem;
 $backdrop-opacity: 0.5;
 
 //формирование базы шрифта
-//$size: 14px;
-$line_height: 28px;
-//$family: $font-family-sans-serif;
-//$weight: 500;
+/*$font-size-root: $size;*/
+$line_height: 21px;
 $va: 18;
 
 $zindex-dropdown: 1000;
