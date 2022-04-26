@@ -106,6 +106,14 @@ html {
   color: transparent;
 }
 
+.top-r-10 {
+  top: 0.625rem;
+}
+
+.end-r-18 {
+  right: 1.125rem;
+}
+
 /*
 .transition-test {
   img {
