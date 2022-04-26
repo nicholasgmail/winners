@@ -8,14 +8,15 @@ html {
   letter-spacing: 0.252px;
 }
 
-@media (max-width: 575.98px) {
+/*@include media-breakpoint-down(sm) {
   html {
     font-size: 12px;
-    line-height: 1.75;
-    letter-spacing: 0.216px;
+    @include line($line_height, 12px);
   }
-}
-
+  .fs-14 {
+    font-size: 14px;
+  }
+}*/
 .z-0 {
   z-index: 900;
 }
@@ -89,6 +90,18 @@ html {
   vertical-align: 0.1em;
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='15' viewBox='0 0 20 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447716 2 0 1.55228 0 1Z' fill='%23F30000'/%3E%3Cpath d='M0 7.03223C0 6.47994 0.447715 6.03223 1 6.03223H19C19.5523 6.03223 20 6.47994 20 7.03223C20 7.58451 19.5523 8.03223 19 8.03223H1C0.447716 8.03223 0 7.58451 0 7.03223Z' fill='%23F30000'/%3E%3Cpath d='M1 12.0645C0.447715 12.0645 0 12.5122 0 13.0645C0 13.6167 0.447716 14.0645 1 14.0645H19C19.5523 14.0645 20 13.6167 20 13.0645C20 12.5122 19.5523 12.0645 19 12.0645H1Z' fill='%23F30000'/%3E%3C/svg%3E");
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.text-transparent:hover {
+  color: transparent;
+}
+
 /*
 .transition-test {
   img {
@@ -105,12 +118,8 @@ html {
     transform: translate(-150%) scale(0.5);
   }
 }*/
-.navbar_h-34 {
-  height: 2.125rem;
-}
-
-.navbar-brand {
-  height: 3.75rem;
+.navbar {
+  background-color: #F30000;
 }
 
 .navbar-nav_after:not(:nth-child(1))::after {
@@ -120,6 +129,39 @@ html {
   left: 0;
   top: 0;
   height: 24px;
+}
+
+@media (max-width: 575.98px) {
+  .navbar {
+    background-color: transparent;
+    position: static;
+    position: initial;
+  }
+  .navbar button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0%, 88%);
+        -ms-transform: translate(0%, 88%);
+            transform: translate(0%, 88%);
+    z-index: 800;
+  }
+  .navbar-collapse {
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  .navbar-nav {
+    background-color: #F30000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .navbar .nav-item::after {
+    content: none;
+  }
+  .logo-img {
+    height: 44px;
+  }
 }
 
 .footer__h1 {

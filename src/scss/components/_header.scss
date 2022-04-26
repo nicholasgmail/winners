@@ -1,12 +1,6 @@
 
 .navbar {
-  &_h-34 {
-    height: rem-calc(34px);
-  }
-
-  &-brand {
-    height: rem-calc(60px);
-  }
+  background-color: $red;
 
   &-nav_after:not(:nth-child(1)) {
     &::after {
@@ -19,3 +13,39 @@
     }
   }
 }
+
+
+@include media-breakpoint-down(sm) {
+  .navbar {
+    background-color: transparent;
+    position: initial;
+
+    button {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(0%, 88%);
+      z-index: 800;
+    }
+
+    &-collapse {
+      transition: .5s ease-in-out;
+    }
+
+    &-nav {
+      background-color: $red;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .nav-item {
+      &::after {
+        content: none;
+      }
+    }
+  }
+  .logo-img {
+    height: 44px;
+  }
+}
+
