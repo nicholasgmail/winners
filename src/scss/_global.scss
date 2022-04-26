@@ -61,12 +61,8 @@ html {
   font-size: rem-calc(12px);
 }
 
-.fs-25 {
-  font-size: rem-calc(25px);
-}
-
-.fs-35_7 {
-  font-size: rem-calc(35.7px);
+.fs-16 {
+  font-size: 16px;
 }
 
 .cursor-pointer {
@@ -81,6 +77,11 @@ html {
 
 .pe-10 {
   margin-right: rem-calc(10px);
+}
+
+.px-38 {
+  padding-left: rem-calc(38px);
+  padding-right: rem-calc(38px);
 }
 
 .dropdown-toggle {

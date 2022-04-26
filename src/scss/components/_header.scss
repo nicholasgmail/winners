@@ -7,4 +7,15 @@
   &-brand {
     height: rem-calc(60px);
   }
+
+  &-nav_after:not(:nth-child(1)) {
+    &::after {
+      content: '';
+      border-left: 1px solid #E5E5E5;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 24px;
+    }
+  }
 }

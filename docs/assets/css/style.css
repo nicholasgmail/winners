@@ -60,12 +60,8 @@ html {
   font-size: 0.75rem;
 }
 
-.fs-25 {
-  font-size: 1.5625rem;
-}
-
-.fs-35_7 {
-  font-size: 2.23125rem;
+.fs-16 {
+  font-size: 16px;
 }
 
 .cursor-pointer {
@@ -80,6 +76,11 @@ html {
 
 .pe-10 {
   margin-right: 0.625rem;
+}
+
+.px-38 {
+  padding-left: 2.375rem;
+  padding-right: 2.375rem;
 }
 
 .dropdown-toggle::after {
@@ -110,6 +111,15 @@ html {
 
 .navbar-brand {
   height: 3.75rem;
+}
+
+.navbar-nav_after:not(:nth-child(1))::after {
+  content: '';
+  border-left: 1px solid #E5E5E5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 24px;
 }
 
 .footer__h1 {
