@@ -114,6 +114,13 @@ html {
   right: 1.125rem;
 }
 
+.badge_red {
+  background-color: #F30000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
 /*
 .transition-test {
   img {
