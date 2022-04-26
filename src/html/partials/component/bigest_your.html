@@ -54,46 +54,36 @@
                 <div class="card border-0 bg-danger p-2 w-100">
                     <h2 class="text-center text-uppercase fs-3 m-0 text-white">OUR LATEST WINNERS</h2>
                 </div>
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 mt-3">
-                    {{#repeat 10}}
+                <div class="row row-cols-1">
                     <div class="col p-2">
                         <div class="card h-100 py-3">
-                            <img src="@img/icons/icons.svg#star"
-                                 class="img-fluid d-inline-block me-1 position-absolute top-r-10 end-r-18"
-                                 width="20"
-                                 height="14"
-                                 alt="star">
-                            <div class="row flex-column align-items-center justify-content-around">
+                            <p class="fs-5 text-center m-0">Total prizes paid out</p>
+                            <p class="fs-3 fw-bold text-success text-center m-0">US$ 107 233 768</p>
+                            <p class="fs-3 fw-normal text-center m-0">6 975 146 <span
+                                    class="fs-5 fw-400">winning tickets</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 mt-3">
+                    {{#repeat 3}}
+                    <div class="col p-2">
+                        <div class="card">
+                            <div class="row align-items-center g-0">
                                 <div class="col-auto">
-                                    <img src="@img/mega-round.webp" class="img-fluid mx-auto d-block" title="winner"
-                                         alt="winner">
+                                    <img src="@img/logo_card.webp" class="img-fluid mx-auto d-block"
+                                         title="winner" alt="winner">
                                 </div>
-                                <div class="col-auto">
-                                    <div class="d-flex flex-nowrap justify-content-center"><img
-                                            src="@img/icons/icons.svg#country-eng"
-                                            class="img-fluid d-inline-block me-1 svg-whatsapp-dims"
-                                            width="20"
-                                            height="14"
-                                            alt="country">
-                                        <span class="text-uppercase">Mega мillions</span>
-                                    </div>
-                                    <p class="fs-3 text-center mb-0">$122 000 000</p>
-                                </div>
-                            </div>
-                            <div class="card-footer bg-transparent border-0 ">
-                                <div class="row row-cols-1 align-items-center justify-content-center">
-                                    <div class="col pb-2">
-                                        <div class="d-flex flex-nowrap justify-content-center"><img
-                                                src="@img/icons/icons.svg#alarm-blue"
-                                                class="img-fluid d-inline-block me-1 svg-whatsapp-dims"
-                                                width="16"
-                                                height="16"
-                                                alt="country">
-                                            <span class="text-uppercase text-primary">1:22:01</span>
-                                        </div>
-                                    </div>
-                                    <div class="col text-center pt-1">
-                                        <button class="btn btn-warning px-51">Play Now</button>
+                                <div class="col ps-3">
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <p class="text-start fw-400 m-0">20.11.2021</p>
+                                        <address>
+                                            <img src="@img/icons/icons.svg#country-dem"
+                                                 class="img-fluid d-inline-block me-auto svg-whatsapp-dims" width="20"
+                                                 height="14" alt="country">
+                                            <strong class="fw-normal">J.J won Р175</strong><br>
+                                            <span class="text-muted fw-400">in 7 ИЗ 49 draw #13476</span><br>
+                                        </address>
                                     </div>
                                 </div>
                             </div>
@@ -103,5 +93,4 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
