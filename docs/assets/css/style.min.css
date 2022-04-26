@@ -8,15 +8,14 @@ html {
   letter-spacing: 0.252px;
 }
 
-/*@include media-breakpoint-down(sm) {
+@media (max-width: 575.98px) {
   html {
-    font-size: 12px;
-    @include line($line_height, 12px);
+    font-size: 13px;
+    line-height: 1.61538;
+    letter-spacing: 0.234px;
   }
-  .fs-14 {
-    font-size: 14px;
-  }
-}*/
+}
+
 .z-0 {
   z-index: 900;
 }
@@ -63,6 +62,11 @@ html {
 
 .fs-16 {
   font-size: 16px;
+}
+
+.px-51 {
+  padding-left: 3.1875rem;
+  padding-right: 3.1875rem;
 }
 
 .cursor-pointer {
