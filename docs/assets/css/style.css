@@ -10,9 +10,9 @@ html {
 
 @media (max-width: 575.98px) {
   html {
-    font-size: 13px;
-    line-height: 1.61538;
-    letter-spacing: 0.234px;
+    font-size: 12px;
+    line-height: 1.75;
+    letter-spacing: 0.216px;
   }
 }
 
@@ -58,6 +58,10 @@ html {
 
 .fs-8 {
   font-size: 0.75rem;
+}
+
+.fs-9 {
+  font-size: 0.8125rem;
 }
 
 .fs-16 {
@@ -136,6 +140,59 @@ html {
   -webkit-transition: .7s ease-in-out;
   -o-transition: .7s ease-in-out;
   transition: .7s ease-in-out;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.footer * {
+  z-index: 3;
+}
+
+.footer__text {
+  font-size: 1rem;
+}
+
+.footer::before {
+  content: '';
+  background-image: url("../images/footer_before.webp");
+  background-clip: padding-box;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  background-size: auto;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  z-index: 2;
+}
+
+.footer__after::after {
+  content: '';
+  background-image: url("../images/footer_after.webp");
+  background-clip: padding-box;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (max-width: 575.98px) {
+  .footer__text {
+    font-size: 0.875rem;
+  }
+  .footer__after::after {
+    height: 75%;
+  }
 }
 
 /*

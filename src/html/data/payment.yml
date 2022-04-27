@@ -1,0 +1,10 @@
+text:
+  - image: 'visa-dark'
+  - image: 'master-card-dark'
+  - image: 'maestro-dark'
+  - image: 'dinersclub-dark'
+  - image: 'skrill-dark'
+  - image: 'bitcoin-dark'
+  - image: 'qiwi'
+  - image: 'hsbc'
+  - image: 'litecoin'
