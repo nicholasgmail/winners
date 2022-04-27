@@ -6,28 +6,36 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winner</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css?_v=20220427095525">
-    <link rel="stylesheet" href="assets/css/style.min.css?_v=20220427095525">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 
-<body class="body_image">
+<body>
 
 <header>
     <div class="container-xxl position-relative">
-        <div class="row justify-content-center justify-content-md-start align-items-center py-4">
-            <div class="col-10 col-md-auto">
+        <div class="row justify-content-between justify-content-md-start align-items-center pt-3 ">
+            <div class="col-auto d-md-none">
+                <nav class="navbar navbar-expand-lg navbar-light rounded p-0 border-0">
+                    <button class="navbar-toggler border-0 pb-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
+            <div class="col-auto ms-4 ms-sm-0">
                 <div class="d-flex position-relative">
-                    <img src="./assets/images/logo.webp" class="img-fluid ms-auto me-4 d-block logo-img" title="winner" alt="winner">
+                    <img src="./assets/images/logo.webp" class="img-fluid ms-auto me-md-4 d-block logo-img" title="winner" alt="winner">
                     <div class="position-absolute w-100 h-100">
                         <a class="navbar-brand stretched-link text-transparent" href="#">winner</a>
                     </div>
                 </div>
             </div>
             <div class="col-auto d-md-none">
-                <a href="#" class="btn btn-primary h-100">
+                <a href="#" class="btn btn-primary h-100 btn-avatar p-0">
                     <img src="./assets/images/icons/icons.svg#profile" class="img-fluid me-auto svg-twitter-dims"
-                         width="12"
-                         height="15"
+                         width="24"
                          alt="My Account">
                 </a>
             </div>
@@ -108,11 +116,6 @@
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light rounded p-0 border-0">
-            <button class="navbar-toggler border-0 position-absolute" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse navbar_h-34" id="navbarNav">
                 <ul class="navbar-nav fs-16">
                     <li class="nav-item navbar-nav_after position-relative px-4">
@@ -203,7 +206,7 @@
         </nav>
     </div></header>
 <section class="banner">
-    <div class="container-xxl pt-md-4">
+    <div class="container-xxl banner__container">
         <div class="row position-relative">
             <img src="./assets/images/banner.webp" class="img-fluid mx-auto d-block w-100" title="winner" alt="winner">
             <div class="position-absolute w-100 h-100">
@@ -212,7 +215,7 @@
         </div>
     </div>
 </section><section class="card-info position-relative">
-    <div class="container-xxl pt-3 pt-md-4">
+    <div class="container-xxl">
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col p-2">
                 <div class="card p-3 h-100">
@@ -264,9 +267,9 @@
             </div>
         </div>
     </div>
-</section><section class="card-info position-relative">
-    <div class="container-xxl pt-md-4">
-        <h2 class="text-left text-uppercase fs-3 mt-5 my-md-5">BIGGEST UPCOMING LOTTERY DRAWS</h2>
+</section><section class="card-info position-relative section_pt">
+    <div class="container-xxl">
+        <h2 class="text-left text-uppercase fs-3 mb-30">BIGGEST UPCOMING LOTTERY DRAWS</h2>
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col p-2">
                 <div class="card h-100">
@@ -384,8 +387,8 @@
             </div>
         </div>
     </div>
-</section><section class="card-info position-relative">
-    <div class="container-xxl pt-4">
+</section><section class="card-info position-relative section_pt">
+    <div class="container-xxl">
         <div class="card border-0 bg-danger p-2 w-100">
             <h2 class="text-center text-uppercase fs-3 m-0 text-white">PLAY UPCOMING LOTTERIES ONLINE</h2>
         </div>
@@ -825,14 +828,26 @@
             <a href="/" class="link-primary fs-5 fw-normal">More Details »</a>
         </div>
     </div>
-</section><section class="bigest_your position-relative">
-    <div class="container-xxl pt-4">
-        <div class="row">
+</section><section class="bigest_your position-relative section_pt">
+    <div class="container-xxl">
+        <div class="row d-none d-md-flex">
             <div class="col-12 col-lg-7 mt-3">
                 <div class="card border-0 bg-danger p-2 w-100">
                     <h2 class="text-center text-uppercase fs-3 m-0 text-white">BIGGEST LOTTERY WINNER</h2>
                 </div>
-                <div class="card py-3 mt-3">
+            </div>
+            <div class="col-12 col-lg-5 mt-3">
+                <div class="card border-0 bg-danger p-2 w-100">
+                    <h2 class="text-center text-uppercase fs-3 m-0 text-white">OUR LATEST WINNERS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row bigest_hidden">
+            <div class="col-12 col-lg-7 mt-3">
+                <div class="card border-0 bg-danger p-2 w-100 d-md-none">
+                    <h2 class="text-center text-uppercase fs-3 m-0 text-white">BIGGEST LOTTERY WINNER</h2>
+                </div>
+                <div class="card card_w py-3 mt-2">
                     <div class="row flex-row align-items-center justify-content-center">
                         <div class="col-auto">
                             <img src="./assets/images/star-loto.webp" class="img-fluid mx-auto d-inline-block" title="winner"
@@ -870,13 +885,13 @@
                             </div>
                         </div>
                         <div class="col-12 col-md mt-3 mt-md-auto">
-                            <div class="d-flex flex-column">
+                            <div class="d-flex flex-column ps-2 pe-5 ps-md-0">
                                 <p class="fs-5 fw-normal text-center text-md-start">Shaun Vincent a Lottery Winner</p>
-                                <p class="fw-400 text-center text-md-start">Shaun Vincent, from Barnsley, celebrates his £1,158,038 National Lottery win after
+                                <p class="fw-400 text-start">Shaun Vincent, from Barnsley, celebrates his £1,158,038 National Lottery win after
                                     his cheque presentation at the Cedar Court Hotel, Wakefield.</p>
                                 <a href="" class="text-center link-primary my-4">Read the full story</a>
                                 <div class="w-100 text-center">
-                                    <button class="btn btn-warning btn-lg w-50">Play Now</button>
+                                    <button class="btn btn-warning btn-lg w-80">Play Now</button>
                                 </div>
                             </div>
                         </div>
@@ -884,7 +899,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-5 mt-3">
-                <div class="card border-0 bg-danger p-2 w-100">
+                <div class="card border-0 bg-danger p-2 w-100 d-md-none">
                     <h2 class="text-center text-uppercase fs-3 m-0 text-white">OUR LATEST WINNERS</h2>
                 </div>
                 <div class="row row-cols-1">
@@ -965,12 +980,57 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col p-2">
+                        <div class="card pt-2 px-4">
+                            <div class="row align-items-center g-0">
+                                <div class="col-auto">
+                                    <img src="./assets/images/logo_card.webp" class="img-fluid mx-auto d-block"
+                                         title="winner" alt="winner">
+                                </div>
+                                <div class="col ps-3">
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <p class="text-start fw-400 m-0">20.11.2021</p>
+                                        <address>
+                                            <img src="./assets/images/icons/icons.svg#country-dem"
+                                                 class="img-fluid d-inline-block me-auto svg-whatsapp-dims" width="20"
+                                                 height="14" alt="country">
+                                            <strong class="fw-normal">J.J won Р175</strong><br>
+                                            <span class="text-muted fw-400">in 7 ИЗ 49 draw #13476</span><br>
+                                        </address>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-2">
+                        <div class="card pt-2 px-4">
+                            <div class="row align-items-center g-0">
+                                <div class="col-auto">
+                                    <img src="./assets/images/logo_card.webp" class="img-fluid mx-auto d-block"
+                                         title="winner" alt="winner">
+                                </div>
+                                <div class="col ps-3">
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <p class="text-start fw-400 m-0">20.11.2021</p>
+                                        <address>
+                                            <img src="./assets/images/icons/icons.svg#country-dem"
+                                                 class="img-fluid d-inline-block me-auto svg-whatsapp-dims" width="20"
+                                                 height="14" alt="country">
+                                            <strong class="fw-normal">J.J won Р175</strong><br>
+                                            <span class="text-muted fw-400">in 7 ИЗ 49 draw #13476</span><br>
+                                        </address>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section><section class="faq position-relative">
-    <div class="container-xxl pt-4">
+</section><section class="faq position-relative section_pt">
+    <div class="container-xxl">
+        <h2 class="text-start text-uppercase fs-3">FREQUENTLY ASKED QUESTION (F.A.Q.)</h2>
         <div class="row">
             <div class="col col-lg-7">
                 <div class="card mt-2 border-0 py-1">
@@ -1012,7 +1072,7 @@
             </div>
         </div>
     </div>
-</section><footer class="footer">
+</section><footer class="footer overflow-hidden">
     <div class="container-xxl px-lg-5 pt-5 position-relative footer__before">
         <div class="py-5"></div>
         <div class="row justify-content-between align-items-center">
@@ -1151,7 +1211,7 @@
                                 <img src="./assets/images/comodo.webp" class="img-fluid mx-auto d-block" title="winner"
                                      alt="winner">
                             </div>
-                            <div class="col-12 d-md-none ms-5 mt-5">
+                            <div class="col-12 d-md-none ms-5 mt-5 mb-3">
                                 <ul class="list-unstyled d-flex flex-row flex-nowrap justify-content-start ms-md-3 mb-0">
                                     <li class="pe-10">
                                         <!-- facebook -->
@@ -1190,9 +1250,9 @@
     </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js?_v=20220427095525"></script>
-<script src="assets/js/app.js?_v=20220427095525"></script>
-<script defer src="assets/js/alpinejs.js?_v=20220427095525"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script defer src="assets/js/alpinejs.js"></script>
 </body>
 
 </html>

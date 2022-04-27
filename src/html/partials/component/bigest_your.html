@@ -1,11 +1,23 @@
-<section class="bigest_your position-relative">
-    <div class="container-xxl pt-4">
-        <div class="row">
+<section class="bigest_your position-relative section_pt">
+    <div class="container-xxl">
+        <div class="row d-none d-md-flex">
             <div class="col-12 col-lg-7 mt-3">
                 <div class="card border-0 bg-danger p-2 w-100">
                     <h2 class="text-center text-uppercase fs-3 m-0 text-white">BIGGEST LOTTERY WINNER</h2>
                 </div>
-                <div class="card py-3 mt-3">
+            </div>
+            <div class="col-12 col-lg-5 mt-3">
+                <div class="card border-0 bg-danger p-2 w-100">
+                    <h2 class="text-center text-uppercase fs-3 m-0 text-white">OUR LATEST WINNERS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row bigest_hidden">
+            <div class="col-12 col-lg-7 mt-3">
+                <div class="card border-0 bg-danger p-2 w-100 d-md-none">
+                    <h2 class="text-center text-uppercase fs-3 m-0 text-white">BIGGEST LOTTERY WINNER</h2>
+                </div>
+                <div class="card card_w py-3 mt-2">
                     <div class="row flex-row align-items-center justify-content-center">
                         <div class="col-auto">
                             <img src="@img/star-loto.webp" class="img-fluid mx-auto d-inline-block" title="winner"
@@ -37,13 +49,13 @@
                             </div>
                         </div>
                         <div class="col-12 col-md mt-3 mt-md-auto">
-                            <div class="d-flex flex-column">
+                            <div class="d-flex flex-column ps-2 pe-5 ps-md-0">
                                 <p class="fs-5 fw-normal text-center text-md-start">Shaun Vincent a Lottery Winner</p>
-                                <p class="fw-400 text-center text-md-start">Shaun Vincent, from Barnsley, celebrates his £1,158,038 National Lottery win after
+                                <p class="fw-400 text-start">Shaun Vincent, from Barnsley, celebrates his £1,158,038 National Lottery win after
                                     his cheque presentation at the Cedar Court Hotel, Wakefield.</p>
                                 <a href="" class="text-center link-primary my-4">Read the full story</a>
                                 <div class="w-100 text-center">
-                                    <button class="btn btn-warning btn-lg w-50">Play Now</button>
+                                    <button class="btn btn-warning btn-lg w-80">Play Now</button>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +63,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-5 mt-3">
-                <div class="card border-0 bg-danger p-2 w-100">
+                <div class="card border-0 bg-danger p-2 w-100 d-md-none">
                     <h2 class="text-center text-uppercase fs-3 m-0 text-white">OUR LATEST WINNERS</h2>
                 </div>
                 <div class="row row-cols-1">
@@ -66,7 +78,7 @@
                     </div>
                 </div>
                 <div class="row row-cols-1 mt-3">
-                    {{#repeat 3}}
+                    {{#repeat 5}}
                     <div class="col p-2">
                         <div class="card pt-2 px-4">
                             <div class="row align-items-center g-0">
