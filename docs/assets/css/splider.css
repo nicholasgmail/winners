@@ -1,9 +1,13 @@
 /* $rfs-base-font-size: 1.15rem; */
+
 /* $slick-loader-path: "../../assets/images/"; */
+
 /*$font-size-root: $size;*/
+
 /*@import "~@splidejs/splide/dist/css/splide.min.css";
 @import "~@splidejs/splide/dist/css/splide-core.min.css";
 @import "~@splidejs/splide/dist/css/themes/splide-skyblue.min.css";*/
+
 .splide__arrow svg {
   fill: rgba(243, 0, 0, 0.9);
 }
@@ -12,6 +16,10 @@
   fill: #F30000;
 }
 
-.splide--nav > .splide__slider > .splide__track > .splide__list > .splide__slide.is-active, .splide--nav > .splide__track > .splide__list > .splide__slide.is-active {
+.splide--nav > .splide__slider > .splide__track > .splide__list > .splide__slide.is-active,
+.splide--nav > .splide__track > .splide__list > .splide__slide.is-active {
   border: 3px solid rgba(243, 0, 0, 0.9);
+}
+@supports (-webkit-appearance:none){
+
 }
