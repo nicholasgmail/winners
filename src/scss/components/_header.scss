@@ -1,15 +1,30 @@
+.header {
+  .navbar {
+    background-color: $red;
 
-.navbar {
-  background-color: $red;
+    .navbar-nav {
+      .nav-link {
+        padding-left: rem-calc(7.2px);
+        padding-top: rem-calc(3.2px);
+        letter-spacing: 0.27px;
+      }
+    }
 
-  &-nav_after:not(:nth-child(1)) {
-    &::after {
-      content: '';
-      border-left: 1px solid #E5E5E5;
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 24px;
+    &-nav_after {
+      &::before {
+        content: '';
+        border-left: 1px solid #E5E5E5;
+        position: absolute;
+        right: -4px;
+        top: 1px;
+        height: 24px;
+      }
+    }
+
+    &-nav_after:last-child {
+      &::before {
+        right: -10px;
+      }
     }
   }
 }

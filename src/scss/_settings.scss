@@ -58,3 +58,11 @@ $spacer: 1rem !default;
 //$component-active-bg: $secondary;
 
 $text-muted: #5F5F5F;
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1218px
+);
