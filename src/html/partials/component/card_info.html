@@ -1,19 +1,19 @@
 <section class="card-info position-relative">
     <div class="container-xxl">
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-md-3 px-3 card-info__bias">
             {{#each card.text}}
             <div class="col p-2">
-                <div class="card p-3 h-100">
+                <div class="card p-1 h-100 {{class-col}}">
                     <div class="row align-items-center g-0">
                         <div class="col-auto">
-                        <img src="@img/{{image}}.webp" class="img-fluid mx-auto d-block" title="winner" alt="winner">
+                        <img src="@img/{{image}}.webp" class="card-info__image img-fluid mx-auto d-block" title="winner" alt="winner">
                         </div>
-                        <div class="col ps-2">
+                        <div class="col ps-1 {{class-col}}__body">
                             <div class="d-flex flex-nowrap justify-content-between">
-                                <h2 class="fs-5 text-uppercase fw-normal">{{title}}</h2>
-                                <a href="/" class="link-primary fw-400">{{link}}</a>
+                                <h2 class="card-info__title fs-5 text-uppercase fw-normal">{{title}}</h2>
+                                <a href="/" class="card-info__link link-primary fw-400">{{link}}</a>
                             </div>
-                            <p class="text-muted mb-0 fw-400">{{text}}</p>
+                            <p class="card-info__text text-muted mb-0 fw-400">{{text}}</p>
                         </div>
                     </div>
                 </div>
