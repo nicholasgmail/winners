@@ -227,7 +227,11 @@ html {
 .banner {
   margin-top: 2.25rem;
   margin-bottom: 1.875rem;
-  margin-right: -0.3125rem;
+}
+
+.banner img {
+  left: 2.9px;
+  position: relative;
 }
 
 .bigest_hidden {
@@ -410,4 +414,111 @@ html {
 
 .card-info .you-pick img {
   top: -1px;
+}
+
+.biggest-lottery h2 {
+  letter-spacing: -.26px;
+}
+
+.biggest-lottery__body {
+  right: 1.8rem;
+  top: 0.625rem;
+}
+
+.biggest-lottery__body span {
+  position: relative;
+  left: 7px;
+  top: 2px;
+}
+
+.biggest-lottery__body p {
+  position: relative;
+  top: 8px;
+  letter-spacing: 0.6px;
+  left: 3px;
+}
+
+.biggest-lottery .btn-warning {
+  width: 170px;
+  bottom: 2px;
+  letter-spacing: .7px;
+  right: 2px;
+}
+
+.biggest-lottery__lotto img {
+  left: 8px;
+  top: -3px;
+}
+
+.biggest-lottery__mega {
+  left: 3px;
+  top: 1px;
+}
+
+.biggest-lottery__mega img {
+  left: 9px;
+  bottom: 3px;
+}
+
+.biggest-lottery__mega .btn-warning {
+  bottom: 4px;
+}
+
+.biggest-lottery__mega .biggest-lottery__body {
+  right: 1.5625rem;
+}
+
+.biggest-lottery__mega .biggest-lottery__body span {
+  left: 1px;
+}
+
+.biggest-lottery__ball {
+  left: 6px;
+}
+
+.biggest-lottery__ball img {
+  left: 9px;
+  bottom: 2px;
+}
+
+.biggest-lottery__ball .biggest-lottery__text {
+  left: 5px;
+  position: relative;
+}
+
+.biggest-lottery__time {
+  font-size: 1.125rem;
+  right: 16px;
+  bottom: 4px;
+  letter-spacing: 1px;
+}
+
+.pay__container {
+  position: relative;
+  right: 6px;
+  padding-right: 5px;
+  top: 1px;
+  padding-left: 42px;
+}
+
+.pay__row {
+  padding: 0 2.5rem;
+}
+
+.pay__row .card-footer .btn-warning {
+  width: 182px;
+  height: 38px;
+  right: 3px;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.pay__row .card .price {
+  letter-spacing: -0.5px;
+}
+
+.pay__link {
+  position: relative;
+  right: 35px;
+  top: 5px;
 }

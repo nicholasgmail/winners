@@ -227,7 +227,11 @@ html {
 .banner {
   margin-top: rem-calc(36px);
   margin-bottom: rem-calc(30px);
-  margin-right: rem-calc(-5px);
+
+  img {
+    left: 2.9px;
+    position: relative;
+  }
 }
 
 .bigest_hidden {

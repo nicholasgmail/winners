@@ -1,17 +1,19 @@
-<section class="card-info position-relative section_pt">
+<section class="biggest-lottery position-relative section_pt">
     <div class="container-xxl">
-        <h2 class="text-left text-uppercase fs-3 mb-30">BIGGEST UPCOMING LOTTERY DRAWS</h2>
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="ms-2 ps-1 pt-1">
+            <h2 class="text-left text-uppercase fs-3 mb-30">BIGGEST UPCOMING LOTTERY DRAWS</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 px-4">
             {{#each biggest.text}}
             <div class="col p-2">
-                <div class="card h-100">
-                    <div class="row align-items-center justify-content-around p-2">
+                <div class="card biggest-lottery__{{image}} h-100">
+                    <div class="row align-items-center justify-content-around pt-2 pb-1">
                         <div class="col-auto">
-                            <img src="@img/{{image}}.webp" class="img-fluid mx-auto d-block" title="winner"
+                            <img src="@img/{{image}}.webp" class="img-fluid mx-auto d-block position-relative" title="winner"
                                  alt="winner">
                         </div>
-                        <div class="col-auto">
-                            <div class="d-flex flex-nowrap justify-content-center"><img
+                        <div class="biggest-lottery__body col-auto position-relative">
+                            <div class="d-flex flex-nowrap justify-content-center biggest-lottery__text"><img
                                     src="@img/icons/icons.svg#country-eng"
                                     class="img-fluid d-inline-block me-1 svg-whatsapp-dims"
                                     width="20"
@@ -22,17 +24,17 @@
                             <p class="text-success fs-3 text-center">$94 000 000</p>
                         </div>
                     </div>
-                    <div class="card-footer bg-primary text-white p-2">
+                    <div class="card-footer bg-primary text-white pt-3 pb-2">
                         <div class="row row-cols-2 align-items-center">
                             <div class="col">
-                                <button class="btn btn-warning px-51">Play Now</button>
+                                <button class="btn btn-warning position-relative">Play Now</button>
                             </div>
                             <div class="col">
-                                <div class="d-flex flex-nowrap justify-content-center"><img
+                                <div class="d-flex biggest-lottery__time flex-nowrap justify-content-center position-relative"><img
                                         src="@img/icons/icons.svg#alarm"
                                         class="img-fluid d-inline-block me-1 svg-whatsapp-dims"
-                                        width="16"
-                                        height="16"
+                                        width="20"
+                                        height="20"
                                         alt="country">
                                     <span class="text-uppercase">1:22:01</span>
                                 </div>
