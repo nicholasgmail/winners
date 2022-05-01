@@ -102,6 +102,24 @@ html {
   margin-left: 0.6rem;
 }
 
+.py-09 {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  top: 1px;
+}
+
+.p-03 {
+  padding: 0.3em 0.27em;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
 .px-38 {
   padding-left: 37px;
   padding-right: 36px;
@@ -493,6 +511,106 @@ html {
   letter-spacing: 1px;
 }
 
+.biggest-your .py-09 {
+  top: 2px;
+}
+
+.biggest-your .bigest_hidden {
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+
+.biggest-your .img-card {
+  position: relative;
+  top: 31px;
+  left: 7px;
+}
+
+.biggest-your__won {
+  right: 22px;
+  position: relative;
+  top: 5px;
+}
+
+.biggest-your__won .h2 {
+  right: 2px;
+  position: relative;
+}
+
+.biggest-your__won .display-6 {
+  right: 12px;
+  position: relative;
+}
+
+.biggest-your__uk {
+  position: relative;
+  right: 17px;
+  letter-spacing: 0px;
+}
+
+.biggest-your__uk ul {
+  right: 6px;
+  top: 3px;
+  position: relative;
+}
+
+.biggest-your__title {
+  right: 9px;
+}
+
+.biggest-your .vincent {
+  top: 10px;
+  right: 2px;
+}
+
+.biggest-your .vincent__title {
+  letter-spacing: .02px;
+}
+
+.biggest-your .vincent__text {
+  letter-spacing: .1px;
+}
+
+.biggest-your .vincent a {
+  top: 10px;
+  right: 23px;
+  letter-spacing: 0;
+}
+
+.biggest-your .vincent button {
+  top: 20px;
+  right: 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 9px 85px;
+}
+
+.biggest-your .your-latest p {
+  position: relative;
+}
+
+.biggest-your .your-latest__title {
+  top: 2px;
+}
+
+.biggest-your .your-latest__price {
+  bottom: 2px;
+  left: 0px;
+  letter-spacing: .8px;
+}
+
+.biggest-your .your-latest__tick {
+  bottom: 7px;
+  letter-spacing: .6px;
+  left: 2px;
+}
+
+.biggest-your .your-latest__row-card {
+  position: relative;
+  right: 4px;
+}
+
 .pay__container {
   position: relative;
   right: 6px;
@@ -521,4 +639,12 @@ html {
   position: relative;
   right: 35px;
   top: 5px;
+}
+
+.faq__title {
+  font-size: 24px;
+  letter-spacing: .01px;
+  position: relative;
+  bottom: 2px;
+  right: 1px;
 }
