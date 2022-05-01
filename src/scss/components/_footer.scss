@@ -1,2 +1,88 @@
 .footer {
+  &__whatsapp {
+    bottom: 4px;
+    left: 6px;
+    letter-spacing: .91px;
+
+    .card {
+      img {
+        position: relative;
+        right: 2px;
+        top: 1px;
+      }
+
+      &__p-last {
+        letter-spacing: 0;
+      }
+
+    }
+  }
+
+  .ps-11 {
+    padding-left: 11px;
+  }
+
+  &__after {
+    position: relative;
+    left: 5%;
+
+    &-first {
+      bottom: 7px;
+
+      h2 {
+        position: relative;
+        right: 12px;
+        letter-spacing: 0.1px;
+        font-size: 16px;
+      }
+
+      nav {
+        line-height: 26px;
+        position: relative;
+        top: 7px;
+        letter-spacing: .01px;
+      }
+    }
+  }
+
+  &__center {
+    position: relative;
+    bottom: 5px;
+    line-height: 16px;
+    right: 5px;
+
+    &-text {
+      width: 75%;
+      letter-spacing: 0px;
+      position: relative;
+      line-height: 14.5px;
+      top: 4px;
+    }
+
+    address {
+      position: relative;
+      bottom: 5px;
+      font-size: 13px;
+      letter-spacing: 0;
+    }
+  }
+
+  &__last {
+    position: relative;
+    right: 35px;
+    bottom: 6px;
+    letter-spacing: 0;
+
+    &-bank {
+      position: relative;
+      right: 2px;
+    }
+
+    &-securety {
+      position: relative;
+      top: 7px;
+      right: 5px;
+      letter-spacing: -0.5px;
+    }
+  }
 }

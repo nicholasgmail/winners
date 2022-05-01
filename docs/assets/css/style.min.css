@@ -171,13 +171,14 @@ html {
 
 .faq .collapse_after {
   position: relative;
+  left: 21px;
 }
 
 .faq .collapse_after::after {
   content: url("data:image/svg+xml,%3Csvg xmlns= 'http://www.w3.org/2000/svg' width= '12' height= '8' viewBox= '0 0 12 8' fill= 'none' %3E%3Cpath d= 'M9.87998 1.29006L5.99998 5.17006L2.11998 1.29006C1.72998 0.900059 1.09998 0.900059 0.70998 1.29006C0.31998 1.68006 0.31998 2.31006 0.70998 2.70006L5.29998 7.29006C5.68998 7.68006 6.31998 7.68006 6.70998 7.29006L11.3 2.70006C11.69 2.31006 11.69 1.68006 11.3 1.29006C10.91 0.910059 10.27 0.900059 9.87998 1.29006Z' fill= 'black' /%3E%3C/svg%3E");
   vertical-align: 0.1em;
   position: absolute;
-  right: 3%;
+  right: 7%;
 }
 
 .faq .collapse {
@@ -208,7 +209,7 @@ html {
   background-clip: padding-box;
   background-origin: border-box;
   background-repeat: no-repeat;
-  background-position: center 0%;
+  background-position: 52% -8%;
   background-size: auto;
   width: 100%;
   height: 50%;
@@ -221,12 +222,13 @@ html {
   background-image: url("../images/footer_after.webp");
   background-clip: padding-box;
   background-origin: border-box;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  width: 100%;
-  height: 70%;
+  background-repeat: repeat;
+  background-size: contain;
+  width: 104%;
+  height: 100%;
   position: absolute;
+  right: 2%;
+  top: 18%;
   z-index: 1;
 }
 
@@ -647,4 +649,88 @@ html {
   position: relative;
   bottom: 2px;
   right: 1px;
+}
+
+.footer__whatsapp {
+  bottom: 4px;
+  left: 6px;
+  letter-spacing: .91px;
+}
+
+.footer__whatsapp .card img {
+  position: relative;
+  right: 2px;
+  top: 1px;
+}
+
+.footer__whatsapp .card__p-last {
+  letter-spacing: 0;
+}
+
+.footer .ps-11 {
+  padding-left: 11px;
+}
+
+.footer__after {
+  position: relative;
+  left: 5%;
+}
+
+.footer__after-first {
+  bottom: 7px;
+}
+
+.footer__after-first h2 {
+  position: relative;
+  right: 12px;
+  letter-spacing: 0.1px;
+  font-size: 16px;
+}
+
+.footer__after-first nav {
+  line-height: 26px;
+  position: relative;
+  top: 7px;
+  letter-spacing: .01px;
+}
+
+.footer__center {
+  position: relative;
+  bottom: 5px;
+  line-height: 16px;
+  right: 5px;
+}
+
+.footer__center-text {
+  width: 75%;
+  letter-spacing: 0px;
+  position: relative;
+  line-height: 14.5px;
+  top: 4px;
+}
+
+.footer__center address {
+  position: relative;
+  bottom: 5px;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.footer__last {
+  position: relative;
+  right: 35px;
+  bottom: 6px;
+  letter-spacing: 0;
+}
+
+.footer__last-bank {
+  position: relative;
+  right: 2px;
+}
+
+.footer__last-securety {
+  position: relative;
+  top: 7px;
+  right: 5px;
+  letter-spacing: -0.5px;
 }

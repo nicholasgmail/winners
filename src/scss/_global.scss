@@ -165,12 +165,13 @@ html {
 .faq {
   .collapse_after {
     position: relative;
+    left: 21px;
 
     &::after {
       content: url("data:image/svg+xml,%3Csvg xmlns= 'http://www.w3.org/2000/svg' width= '12' height= '8' viewBox= '0 0 12 8' fill= 'none' %3E%3Cpath d= 'M9.87998 1.29006L5.99998 5.17006L2.11998 1.29006C1.72998 0.900059 1.09998 0.900059 0.70998 1.29006C0.31998 1.68006 0.31998 2.31006 0.70998 2.70006L5.29998 7.29006C5.68998 7.68006 6.31998 7.68006 6.70998 7.29006L11.3 2.70006C11.69 2.31006 11.69 1.68006 11.3 1.29006C10.91 0.910059 10.27 0.900059 9.87998 1.29006Z' fill= 'black' /%3E%3C/svg%3E");
       vertical-align: 0.1em;
       position: absolute;
-      right: 3%;
+      right: 7%;
     }
   }
 
@@ -203,7 +204,7 @@ html {
     background-clip: padding-box;
     background-origin: border-box;
     background-repeat: no-repeat;
-    background-position: center 0%;
+    background-position: 52% -8%;
     background-size: auto;
     width: 100%;
     height: 50%;
@@ -219,12 +220,13 @@ html {
       background-image: url("../images/footer_after.webp");
       background-clip: padding-box;
       background-origin: border-box;
-      background-repeat: no-repeat;
-      background-position: bottom center;
-      background-size: cover;
-      width: 100%;
-      height: 70%;
+      background-repeat: repeat;
+      background-size: contain;
+      width: 104%;
+      height: 100%;
       position: absolute;
+      right: 2%;
+      top: 18%;
       z-index: 1;
     }
   }
