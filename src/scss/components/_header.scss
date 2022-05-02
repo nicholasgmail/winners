@@ -29,8 +29,49 @@
   }
 }
 
+@include media-breakpoint-up(md) {
+  .header {
+    padding-top: 7px;
+  }
+}
 
 @include media-breakpoint-down(sm) {
+  .header {
+    overflow: hidden;
+
+    &__logo {
+      position: relative;
+      right: 8px;
+      width: 199px;
+      top: 1px;
+    }
+
+    &__button {
+      position: relative;
+      bottom: 36px;
+      right: 2px;
+    }
+
+    &__profile {
+      &-link {
+        position: relative;
+        right: 14px;
+      }
+    }
+
+    &__welcome {
+      position: relative;
+      top: 4px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      right: 13px;
+
+      &-balance {
+        position: relative;
+        left: 9px;
+      }
+    }
+  }
   .navbar {
     background-color: transparent;
     position: initial;
