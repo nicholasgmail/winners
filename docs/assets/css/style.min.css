@@ -615,6 +615,74 @@ html {
   letter-spacing: 1px;
 }
 
+@media (max-width: 767.98px) {
+  .biggest-lottery {
+    top: 10px;
+    right: 8px;
+  }
+  .biggest-lottery h2 {
+    letter-spacing: .7px;
+  }
+  .biggest-lottery__text {
+    position: relative;
+    right: 2px;
+    top: 3px;
+    letter-spacing: 1px;
+  }
+  .biggest-lottery__time {
+    font-size: 1.425rem;
+    right: 4px;
+    bottom: 0px;
+    letter-spacing: 1px;
+  }
+  .biggest-lottery .btn-warning {
+    width: 148px;
+    padding: 6px;
+    bottom: -2px;
+    font-size: 13px;
+    letter-spacing: 1.7px;
+    right: 0px;
+  }
+  .biggest-lottery__body {
+    top: 0;
+    right: 1rem;
+  }
+  .biggest-lottery__body p {
+    font-size: 23px !important;
+  }
+  .biggest-lottery .card-footer {
+    height: 5rem;
+  }
+  .biggest-lottery .card .biggest-lottery__col img {
+    width: 92%;
+    left: 3px;
+    top: -2px;
+  }
+  .biggest-lottery__mega {
+    left: 0px;
+    top: 4px;
+  }
+  .biggest-lottery__mega .biggest-lottery__body {
+    right: 6px;
+  }
+  .biggest-lottery__mega .biggest-lottery__body img {
+    position: relative;
+    left: -8px;
+    bottom: 0;
+  }
+  .biggest-lottery__mega .biggest-lottery__body p {
+    left: -4px;
+    top: 10px;
+  }
+  .biggest-lottery__ball {
+    left: 0px;
+    top: 8px;
+  }
+  .biggest-lottery__ball .biggest-lottery__text {
+    left: -3px;
+  }
+}
+
 .biggest-your .py-09 {
   top: 2px;
 }

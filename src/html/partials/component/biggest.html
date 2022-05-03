@@ -5,10 +5,10 @@
         </div>
         <div class="row row-cols-1 row-cols-md-3 px-4">
             {{#each biggest.text}}
-            <div class="col p-2">
+            <div class="col px-0 pb-3 p-md-2">
                 <div class="card biggest-lottery__{{image}} h-100">
                     <div class="row align-items-center justify-content-around pt-2 pb-1">
-                        <div class="col-auto">
+                        <div class="col-auto biggest-lottery__col">
                             <img src="@img/{{image}}.webp" class="img-fluid mx-auto d-block position-relative" title="winner"
                                  alt="winner">
                         </div>
@@ -24,7 +24,7 @@
                             <p class="text-success fs-3 text-center">$94 000 000</p>
                         </div>
                     </div>
-                    <div class="card-footer bg-primary text-white pt-3 pb-2">
+                    <div class="card-footer bg-primary text-white pt-3 pb-2 mt-1 mt-md-auto">
                         <div class="row row-cols-2 align-items-center">
                             <div class="col">
                                 <button class="btn btn-warning position-relative">Play Now</button>
