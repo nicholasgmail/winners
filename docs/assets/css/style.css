@@ -783,6 +783,18 @@ html {
   right: 4px;
 }
 
+@media (max-width: 767.98px) {
+  .biggest-your .bigest_hidden {
+    position: relative;
+    top: 15px;
+    left: -2px;
+  }
+  .biggest-your .bigest_hidden__title {
+    padding: 13.7px 0;
+    letter-spacing: -.1px;
+  }
+}
+
 .pay__container {
   position: relative;
   right: 6px;
@@ -811,6 +823,70 @@ html {
   position: relative;
   right: 35px;
   top: 5px;
+}
+
+@media (max-width: 767.98px) {
+  .pay__link {
+    right: 20px;
+    top: 4px;
+  }
+  .pay__row {
+    padding: 0 .5rem;
+    height: 736px;
+    overflow-y: scroll;
+  }
+  .pay__row::-webkit-scrollbar {
+    width: 0;
+  }
+  .pay__row .card-footer {
+    font-size: 13px;
+  }
+  .pay__row .card-footer .btn-warning {
+    width: 136px;
+    height: 38px;
+    bottom: 3px;
+    padding: 0;
+    font-size: 14px;
+    right: 5px;
+    position: relative;
+    letter-spacing: 1px;
+  }
+  .pay__flag {
+    bottom: 4px;
+    left: 2px;
+  }
+  .pay__card {
+    margin-top: 0.3rem;
+    margin-bottom: -0.5rem;
+    padding-bottom: 0.2rem;
+  }
+  .pay__container {
+    padding-top: 14px;
+    padding-left: 22px;
+    padding-right: 9px;
+  }
+  .pay__container .card .price {
+    letter-spacing: 1px;
+  }
+  .pay__container .card__star {
+    right: 0.6rem;
+    width: 12px;
+    top: 10px;
+  }
+  .pay__container .card__mega {
+    width: 82px;
+    top: 4px;
+    position: relative;
+    right: 2px;
+  }
+  .pay__container .py-09 {
+    padding: 1.1rem 0;
+  }
+  .pay__container h2 {
+    position: relative;
+    right: 1px;
+    letter-spacing: .6px;
+  }
 }
 
 .faq__title {

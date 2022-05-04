@@ -6,19 +6,19 @@
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 mt-3 pay__row">
             {{#repeat 10}}
             <div class="col pb-3">
-                <div class="card h-100 pt-3">
+                <div class="card pay__card h-100 pt-3">
                     <img src="@img/icons/icons.svg#star"
-                         class="img-fluid d-inline-block me-1 position-absolute top-r-10 end-r-18"
+                         class="img-fluid d-inline-block me-1 position-absolute top-r-10 end-r-18 card__star"
                          width="20"
                          height="14"
                          alt="star">
                     <div class="row flex-column align-items-center justify-content-around">
                         <div class="col-auto">
-                            <img src="@img/mega-round.webp" class="img-fluid mx-auto d-block" title="winner"
+                            <img src="@img/mega-round.webp" class="img-fluid mx-auto d-block card__mega" title="winner"
                                  alt="winner">
                         </div>
                         <div class="col-auto mt-4">
-                            <div class="d-flex flex-nowrap justify-content-center"><img
+                            <div class="d-flex flex-nowrap justify-content-center position-relative pay__flag"><img
                                     src="@img/icons/icons.svg#country-eng"
                                     class="img-fluid d-inline-block me-1 svg-whatsapp-dims"
                                     width="20"
@@ -51,7 +51,8 @@
             {{/repeat}}
         </div>
         <div class="w-100 text-end">
-            <a href="/" class="link-primary fs-5 fw-normal pay__link">More Details »</a>
+            <a href="/" class="link-primary fs-5 fw-normal pay__link d-none d-md-block">More Details »</a>
+            <a href="/" class="link-primary fs-5 fw-normal pay__link d-md-none">All lotteries »</a>
         </div>
     </div>
 </section>
