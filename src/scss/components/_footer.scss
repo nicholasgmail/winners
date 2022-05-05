@@ -86,3 +86,96 @@
     }
   }
 }
+
+@include media-breakpoint-down(md) {
+  .footer {
+    &::before {
+      background-position: 55% 31%;
+      background-size: contain;
+    }
+
+    &__last {
+      position: relative;
+      right: 28px;
+      bottom: -14px;
+      letter-spacing: 0;
+
+      h2 {
+        position: relative;
+        left: 15px;
+        top: 8px;
+      }
+
+
+      .social {
+        margin-bottom: 32px;
+        margin-left: 40px;
+        margin-top: 17px;
+
+        .pe-10 {
+          margin-right: 10px;
+        }
+      }
+
+      &-bank {
+        right: -4px;
+        top: 8px;
+
+        img {
+          position: relative;
+          top: 1px;
+          left: 1px;
+        }
+      }
+    }
+
+    &__center {
+      position: relative;
+      bottom: -31px;
+      right: 9px;
+
+      &-text {
+        width: 90%;
+        line-height: 11.5px;
+      }
+
+      .fs-16 {
+        font-size: 14px;
+        margin: 0;
+      }
+
+      address {
+        font-size: 10px;
+      }
+    }
+
+    &__after {
+      position: relative;
+      left: 3%;
+      bottom: 6px;
+
+      &::after {
+        background-repeat: no-repeat;
+        top: 73%;
+      }
+
+      &-first nav {
+        line-height: 26px;
+        position: relative;
+        top: 5px;
+        right: 14px;
+        letter-spacing: .01px;
+      }
+    }
+
+    &__whatsapp {
+      bottom: 28px;
+      left: -58px;
+      letter-spacing: 1px;
+    }
+
+    .fs-16 {
+      font-size: 14px;
+    }
+  }
+}
